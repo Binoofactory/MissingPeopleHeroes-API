@@ -1,4 +1,4 @@
-package com.binoofactory.mph.web.calendar.svc;
+package com.binoofactory.mph.web.missingpeople.svc;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.binoofactory.mph.cmmn.inf.IFCommonService;
-import com.binoofactory.mph.web.calendar.repos.MissingPeopleRepos;
-import com.binoofactory.mph.web.calendar.vo.MissingPeopleVO;
+import com.binoofactory.mph.web.missingpeople.repos.MissingPeopleRepos;
+import com.binoofactory.mph.web.missingpeople.vo.MissingPeopleVO;
 
 @Service
 public class MissingPeopleService implements IFCommonService<MissingPeopleVO>{

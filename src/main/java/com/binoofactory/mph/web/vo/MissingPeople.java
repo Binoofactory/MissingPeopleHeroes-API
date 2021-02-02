@@ -1,7 +1,7 @@
 package com.binoofactory.mph.web.vo;
 
 import com.binoofactory.mph.cmmn.inf.IFBaseVO;
-import com.binoofactory.mph.web.calendar.vo.MissingPeopleVO;
+import com.binoofactory.mph.web.missingpeople.vo.MissingPeopleVO;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

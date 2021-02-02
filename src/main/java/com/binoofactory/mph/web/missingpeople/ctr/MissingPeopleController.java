@@ -1,4 +1,4 @@
-package com.binoofactory.mph.web.calendar.ctr;
+package com.binoofactory.mph.web.missingpeople.ctr;
 
 import java.util.List;
 import java.util.Map;
@@ -15,8 +15,8 @@ import com.binoofactory.mph.cmmn.data.ApiDataRstCd;
 import com.binoofactory.mph.utils.ApiResponseUtil;
 import com.binoofactory.mph.utils.PageUtil;
 import com.binoofactory.mph.utils.StringUtil;
-import com.binoofactory.mph.web.calendar.svc.MissingPeopleService;
-import com.binoofactory.mph.web.calendar.vo.MissingPeopleVO;
+import com.binoofactory.mph.web.missingpeople.svc.MissingPeopleService;
+import com.binoofactory.mph.web.missingpeople.vo.MissingPeopleVO;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

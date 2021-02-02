@@ -1,4 +1,4 @@
-package com.binoofactory.mph.web.calendar.repos;
+package com.binoofactory.mph.web.missingpeople.repos;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.binoofactory.mph.web.calendar.vo.MissingPeopleVO;
+import com.binoofactory.mph.web.missingpeople.vo.MissingPeopleVO;
 
 @Repository
 public interface MissingPeopleRepos extends JpaRepository<MissingPeopleVO, Long> 

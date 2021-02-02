@@ -1,4 +1,4 @@
-package com.binoofactory.mph.web.calendar.vo;
+package com.binoofactory.mph.web.missingpeople.vo;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
