@@ -29,9 +29,9 @@ public class MissingPeopleVO {
     @Column(name = "LST_CLTH")
 	public String descriptionCloth;
     @Column(name = "LST_PR_AGE")
-	public String ageOfNow;
+	public Integer ageOfNow;
     @Column(name = "LST_PS_AGE")
-	public String ageAtTime;
+	public Integer ageAtTime;
     @Column(name = "LST_DEPT")
 	public String lostDepart;
     @Column(name = "LST_LOC")
@@ -39,7 +39,7 @@ public class MissingPeopleVO {
     @Column(name = "LST_IMG")
 	public String profileImage;
     @Column(name = "LST_TM")
-	public String lostTime;
+	public String feature;
     @Column(name = "REQ_NO")
 	public String reqNo;
     @Column(name = "REQ_DT")
@@ -49,15 +49,15 @@ public class MissingPeopleVO {
     @Column(name = "LST_EDIT_DT")
 	public String lastestUpdateTime;
     @Column(name = "LST_DT")
-	public String lostDt;
+	public String lostTime;
     
     @Builder
     public MissingPeopleVO(
     		String name
     		, String gender
     		, String descriptionCloth
-    		, String ageOfNow
-    		, String ageAtTime
+    		, Integer ageOfNow
+    		, Integer ageAtTime
     		, String lostDepart
     		, String lostLocation
     		, String profileImage
@@ -66,7 +66,7 @@ public class MissingPeopleVO {
     		, String reqDt
     		, String efectEndTime
     		, String lastestUpdateTime
-    		, String lostDt
+    		, String feature
     		) {
         this.name = name;
         this.gender = gender;
@@ -81,6 +81,6 @@ public class MissingPeopleVO {
         this.reqDt = reqDt;
         this.efectEndTime = efectEndTime;
         this.lastestUpdateTime = lastestUpdateTime;
-        this.lostDt = lostDt;
+        this.feature = feature;
     }
 }

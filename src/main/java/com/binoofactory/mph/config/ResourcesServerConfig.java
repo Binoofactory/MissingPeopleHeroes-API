@@ -20,6 +20,6 @@ public class ResourcesServerConfig extends ResourceServerConfigurerAdapter {
 	        .authorizeRequests()
             .antMatchers("/api/t1/auth/*").permitAll()
             .antMatchers("/api/t1/board/*").permitAll()
-            .antMatchers("/api/t1/info/missing-people").hasRole("USER");
+            .antMatchers("/api/t1/info/missing-people").permitAll();//.hasRole("USER");
 	}
 }

@@ -14,23 +14,23 @@ import com.binoofactory.mph.web.missingpeople.vo.MissingPeopleVO;
 public class MissingPeopleService implements IFCommonService<MissingPeopleVO>{
 
 	@Autowired
-	private MissingPeopleRepos videoInfoRepos;
-
+	private MissingPeopleRepos missingPeopleRepos;
+	
 	@Override
 	@Transactional(readOnly = true)
 	public MissingPeopleVO find(MissingPeopleVO vo) {
 		// TODO Auto-generated method stub
-		return videoInfoRepos.findByNo(vo.lostNo);
+		return missingPeopleRepos.findByNo(vo.lostNo);
 	}
 	@Transactional(readOnly = true)
 	public List<MissingPeopleVO> findAll(String sttTime, int offset, int limit) {
-		return videoInfoRepos.findList(sttTime, offset, limit);
+		return missingPeopleRepos.findList(sttTime, offset, limit);
 	}
 
 	@Override
 	@Transactional(readOnly = true)
 	public List<MissingPeopleVO> findAll(MissingPeopleVO vo) {
-		return videoInfoRepos.findAll();
+		return missingPeopleRepos.findAll();
 	}
 
 	@Override

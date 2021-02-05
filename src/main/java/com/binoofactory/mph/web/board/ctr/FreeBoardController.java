@@ -30,7 +30,7 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
 @RestController
-@Api(value = "자유 게시판", tags="자유 게시판")
+@Api(value = "자유 게시판", tags="게시판")
 @RequestMapping("/api/t1/board/")
 public class FreeBoardController {
 	
